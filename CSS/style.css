@@ -1,37 +1,100 @@
+.ms-btn--slider {
+    font-size: 26px;
+}
 
-html, body {
-    position: relative;
-    height: 100%;
+.slide-inner--info {
+    position: absolute;
+    width: auto;
+    min-height: 50px;
+    bottom: 33em;
+    padding-left: 16em;
+    color: #fff;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 1s ease;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
-body {
-    background: #eee;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    color:#000;
-    margin: 0;
-    padding: 0;
+
+.slide-inner-home {
+    position: absolute;
+    width: auto;
+    bottom: 3em;
+    padding-left: 1em;
+    color: #fff;
+    z-index: 1;
+    transition: opacity 1s ease;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
-.swiper-container {
-    width: 100%;
-    height: 100%;
+
+.slide-inner-home .home-social {
+    display: block;
 }
-.swiper-slide {
+
+.home-social li a {
+    color: #fff;
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
     text-align: center;
-    font-size: 18px;
-    background: #fff;
-
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
+    text-decoration: none;
+    margin-left: 16px;
+    -webkit-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
 }
 
+.home-social li {
+    display: inline-block;
+}
+
+a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+.ms-btn--slider {
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 16em;
+    font-weight: 600;
+    letter-spacing: .15em;
+    padding-bottom: 1em;
+}
+
+a.about-me-link {
+    display: inline-block;
+    color: #fff;
+    padding: 0px 12px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 32px;
+    font-weight: 600;
+    border-radius: 4px;
+    -webkit-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+@media only screen and (min-width: 768px) {
+    a.about-me-link {
+        line-height: 48px;
+        font-size: 14px;
+        padding: 0px 30px;
+    }
+}
