@@ -26,3 +26,29 @@
     padding-bottom: 2em;
     color: white;
 }
+
+a.about-me-link {
+    display: inline-block;
+    color: #fff;
+    padding: 0px 12px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 32px;
+    font-weight: 600;
+    border-radius: 4px;
+    -webkit-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+@media only screen and (min-width: 768px) {
+    a.about-me-link {
+        line-height: 48px;
+        font-size: 14px;
+        padding: 0px 30px;
+    }
+}
