@@ -52,3 +52,37 @@ a.about-me-link {
         padding: 0px 30px;
     }
 }
+
+.slide-inner-home {
+    position: absolute;
+    width: auto;
+    bottom: 3em;
+    padding-left: 1em;
+    color: #fff;
+    z-index: 1;
+    transition: opacity 1s ease;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.home-social li {
+    display: inline-block;
+}
+
+.home-social li a {
+    color: #fff;
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 16px;
+    -webkit-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
