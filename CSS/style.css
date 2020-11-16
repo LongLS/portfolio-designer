@@ -1,0 +1,15 @@
+.slide-inner--info {
+    position: absolute;
+    width: auto;
+    min-height: 50px;
+    bottom: 33em;
+    padding-left: 16em;
+    color: #fff;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 1s ease;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
