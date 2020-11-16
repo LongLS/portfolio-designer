@@ -13,8 +13,7 @@
     -ms-user-select: none;
     user-select: none;
 }
-
-.ms-btn--slider {
+.sing .ms-btn--slider {
     font-size: 26px;
     text-transform: uppercase;
     text-decoration: none;
