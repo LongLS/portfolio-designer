@@ -13,3 +13,17 @@
     -ms-user-select: none;
     user-select: none;
 }
+
+.ms-btn--slider {
+    font-size: 26px;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 16em;
+    font-weight: 600;
+    letter-spacing: .15em;
+    padding-bottom: 2em;
+    color: white;
+}
