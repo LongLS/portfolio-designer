@@ -86,3 +86,10 @@ a.about-me-link {
     -o-transition: all .3s ease-out;
     transition: all .3s ease-out;
 }
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-22%, -50%);
+}
