@@ -69,6 +69,14 @@ h1 {
     }
 }
 
+@media only screen and (max-width: 805px) {
+    .sing .ms-btn--slider {
+        padding-bottom: 0em;
+        display: block;
+        padding: 0;
+    }
+}
+
 a.about-me-link {
     display: inline-block;
     color: #fff;
@@ -143,3 +151,22 @@ a.about-me-link {
     }
 }
 
+@media only screen and (max-width: 850px) {
+    .slide-inner--info {
+        position: absolute;
+        padding-left: 0em;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+}
+
+@media only screen and (max-width: 805px) {
+    .about-me {
+        padding-top: 24px;
+    }
+}
