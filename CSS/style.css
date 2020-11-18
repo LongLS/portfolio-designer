@@ -170,3 +170,8 @@ a.about-me-link {
         padding-top: 24px;
     }
 }
+
+a.about-me-link:hover {
+    border: 1px solid #fff;
+    box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.3);
+}
