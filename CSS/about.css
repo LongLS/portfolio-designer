@@ -1,0 +1,7 @@
+.navbar-white .hamburger-label {
+    color: black;
+}
+
+.navbar-white .hamburger-inner, .navbar-white .hamburger-inner:after, .navbar-white .hamburger-inner:before {
+    background-color: black;
+}
