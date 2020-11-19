@@ -355,3 +355,9 @@
 #footer h3 {
     font-size: 30px;
 }
+
+@media all and (max-width : 576px) {
+    .container {
+        max-width: 423px;
+    }
+}
